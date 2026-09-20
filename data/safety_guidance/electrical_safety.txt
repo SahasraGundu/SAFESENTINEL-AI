@@ -1,0 +1,17 @@
+FACTORY SAFETY GUIDANCE — ELECTRICAL SAFETY
+(Demonstration / reference document)
+
+Section 1: Panel Access
+Electrical panels and substation enclosures must remain closed and
+locked except during authorized maintenance. An open panel with
+accessible live components is an immediate stop-work condition for
+the surrounding area.
+
+Section 2: Exposed Wiring
+Any exposed or visibly worn wiring must be reported and de-energized
+at the earliest opportunity. Temporary insulation (tape) is not an
+acceptable long-term fix.
+
+Section 3: Lockout/Tagout
+All electrical maintenance must follow lockout/tagout procedure.
+Panels must be visually verified de-energized before work begins.

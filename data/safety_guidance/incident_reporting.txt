@@ -1,0 +1,20 @@
+FACTORY SAFETY GUIDANCE — INCIDENT & NEAR-MISS REPORTING
+(Demonstration / reference document)
+
+Section 1: Reporting Threshold
+Any event that could reasonably have resulted in injury, even if it
+did not, must be logged as a Near Miss. Under-reporting near misses
+removes the early-warning data safety teams rely on to spot precursor
+patterns before an actual incident occurs.
+
+Section 2: Investigation Priority
+Locations or hazard types with a rising report frequency over a
+rolling 30-day window should be prioritized for investigation ahead
+of locations with a flat or declining trend, even if their raw report
+count is lower.
+
+Section 3: Escalation
+Any location with 3 or more distinct hazard types recurring together
+(e.g., leakage + wet floor + missing signage) should be treated as an
+elevated precursor signal warranting a site walkthrough, not just a
+paperwork review.

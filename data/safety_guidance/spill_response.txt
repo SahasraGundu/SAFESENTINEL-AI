@@ -1,0 +1,25 @@
+FACTORY SAFETY GUIDANCE — SPILL & LEAK RESPONSE
+(Demonstration / reference document — not an official regulatory standard)
+
+Section 1: Immediate Response
+When a hydraulic, oil, or coolant leak is identified, the area must be
+cordoned off immediately using cones or barrier tape. Wet-floor signage
+must be placed at both approach points to the spill within 5 minutes
+of discovery.
+
+Section 2: Recurring Leaks
+If a leak recurs at the same equipment more than twice within a 30-day
+period, this is classified as a CHRONIC LEAK and must be escalated to
+the maintenance engineering team for root-cause investigation rather
+than repeated surface cleanup. Chronic leaks combined with missing
+signage are a leading precursor to slip-and-fall incidents.
+
+Section 3: Cleanup
+Use absorbent granules for oil-based leaks. Do not use standard mops
+for hydraulic fluid, as this spreads a thin film that remains slippery
+after visible liquid is removed.
+
+Section 4: Night Shift Considerations
+Night shift crews should be provided with dedicated spill-response kits
+at each production line, since maintenance response times are
+typically longer outside of day-shift hours.

@@ -1,0 +1,105 @@
+report_id,date,location,department,shift,report_type,severity,hazard,description
+SR-1047,2026-06-01,Warehouse B,Logistics,Morning,Observation,2,Improper storage/stacking,"Boxes stacked above the marked height limit on rack 2, creating a potential fall/collapse risk."
+SR-1063,2026-06-03,Loading Zone,Logistics,Evening,Observation,2,Pedestrian crossing violation,Pedestrian crossed through an active vehicle lane instead of using the marked crossing near dock 4.
+SR-1043,2026-06-08,Warehouse B,Logistics,Morning,Observation,1,Improper storage/stacking,"Boxes stacked above the marked height limit on rack 3, creating a potential fall/collapse risk."
+SR-1091,2026-06-09,Electrical Substation,Facilities,Night,Observation,1,Exposed wiring,"Exposed wiring noticed near the substation junction box, insulation appeared worn."
+SR-1083,2026-06-09,Packaging Unit,Manufacturing,Morning,Observation,1,Repetitive strain concern,Packaging staff reported wrist discomfort after extended repetitive sealing tasks without rotation.
+SR-1053,2026-06-10,Warehouse B,Logistics,Night,Near Miss,3,Blocked emergency pathway,Emergency pathway near the loading dock was obstructed by returned stock awaiting pickup.
+SR-1065,2026-06-13,Loading Zone,Logistics,Evening,Observation,2,Pedestrian crossing violation,Pedestrian crossed through an active vehicle lane instead of using the marked crossing near dock 1.
+SR-1046,2026-06-14,Warehouse B,Logistics,Morning,Observation,1,Improper storage/stacking,"Boxes stacked above the marked height limit on rack 7, creating a potential fall/collapse risk."
+SR-1096,2026-06-14,Electrical Substation,Facilities,Morning,Near Miss,2,Electrical hazard,Panel door on substation unit 4 was left open with live components partially accessible.
+SR-1071,2026-06-14,Loading Zone,Logistics,Evening,Observation,2,Pedestrian crossing violation,Pedestrian crossed through an active vehicle lane instead of using the marked crossing near dock 9.
+SR-1057,2026-06-14,Warehouse B,Logistics,Night,Near Miss,3,Blocked emergency pathway,Pallets stacked partially blocking the marked emergency exit route near dock 7.
+SR-1080,2026-06-15,Packaging Unit,Manufacturing,Morning,Observation,1,Repetitive strain concern,Packaging staff reported wrist discomfort after extended repetitive sealing tasks without rotation.
+SR-1051,2026-06-17,Warehouse B,Logistics,Evening,Observation,1,PPE non-compliance,Two workers observed without safety goggles while handling packaging materials near bay 9.
+SR-1049,2026-06-17,Warehouse B,Logistics,Morning,Near Miss,2,Blocked emergency pathway,Emergency pathway near the loading dock was obstructed by returned stock awaiting pickup.
+SR-1097,2026-06-18,Main Corridor,Facilities,Morning,Observation,2,Slip/fall hazard,Loose floor tile near the main corridor created a trip hazard close to the stairwell.
+SR-1060,2026-06-20,Loading Zone,Logistics,Morning,Near Miss,2,Forklift-pedestrian proximity,Near miss between reversing forklift and warehouse staff crossing an unmarked pedestrian lane.
+SR-1045,2026-06-22,Warehouse B,Logistics,Morning,Observation,2,PPE non-compliance,Forklift operator noted operating without a high-visibility vest during morning shift.
+SR-1062,2026-06-22,Loading Zone,Logistics,Evening,Near Miss,2,Forklift-pedestrian proximity,Near miss between reversing forklift and warehouse staff crossing an unmarked pedestrian lane.
+SR-1079,2026-06-24,Packaging Unit,Manufacturing,Morning,Observation,1,PPE non-compliance,Two workers observed without safety goggles while handling packaging materials near bay 7.
+SR-1076,2026-06-24,Loading Zone,Logistics,Night,Observation,1,Poor lighting,"Loading zone lighting was noticeably dim during night shift, making it hard to see approaching vehicles."
+SR-1092,2026-06-28,Electrical Substation,Facilities,Night,Observation,2,Exposed wiring,"Exposed wiring noticed near the substation junction box, insulation appeared worn."
+SR-1089,2026-06-29,Electrical Substation,Facilities,Night,Observation,1,Exposed wiring,"Exposed wiring noticed near the substation junction box, insulation appeared worn."
+SR-1048,2026-06-29,Warehouse B,Logistics,Morning,Observation,1,Improper storage/stacking,"Boxes stacked above the marked height limit on rack 9, creating a potential fall/collapse risk."
+SR-1088,2026-07-02,Packaging Unit,Manufacturing,Evening,Observation,2,PPE non-compliance,Two workers observed without safety goggles while handling packaging materials near bay 6.
+SR-1070,2026-07-03,Loading Zone,Logistics,Evening,Observation,1,Pedestrian crossing violation,Pedestrian crossed through an active vehicle lane instead of using the marked crossing near dock 9.
+SR-1029,2026-07-07,Assembly Line 3,Manufacturing,Night,Observation,1,Missing hazard signage,Wet floor / hazard signage was missing near the leak-prone section of the line during night shift.
+SR-1100,2026-07-07,Main Corridor,Facilities,Morning,Observation,2,Slip/fall hazard,Loose floor tile near the main corridor created a trip hazard close to the stairwell.
+SR-1030,2026-07-07,Assembly Line 3,Manufacturing,Night,Near Miss,2,Equipment leakage,Hydraulic fluid observed leaking from conveyor motor housing near station 6. Small puddle forming on the floor.
+SR-1032,2026-07-12,Assembly Line 3,Manufacturing,Night,Incident,4,Machine malfunction,Press machine safety interlock did not engage properly on first attempt; operator had to reset it manually.
+SR-1081,2026-07-18,Packaging Unit,Manufacturing,Morning,Observation,2,Repetitive strain concern,Packaging staff reported wrist discomfort after extended repetitive sealing tasks without rotation.
+SR-1035,2026-07-18,Warehouse B,Logistics,Morning,Observation,1,PPE non-compliance,Two workers observed without safety goggles while handling packaging materials near bay 9.
+SR-1094,2026-07-20,Electrical Substation,Facilities,Night,Observation,2,Exposed wiring,"Exposed wiring noticed near the substation junction box, insulation appeared worn."
+SR-1026,2026-07-22,Assembly Line 3,Manufacturing,Night,Near Miss,3,Wet/slippery floor,Employee nearly slipped on a wet patch close to the conveyor. Surface had not been mopped or marked.
+SR-1038,2026-07-22,Warehouse B,Logistics,Morning,Observation,1,PPE non-compliance,Forklift operator noted operating without a high-visibility vest during morning shift.
+SR-1078,2026-07-23,Packaging Unit,Manufacturing,Evening,Observation,2,PPE non-compliance,Two workers observed without safety goggles while handling packaging materials near bay 7.
+SR-1075,2026-07-25,Loading Zone,Logistics,Night,Observation,1,Poor lighting,"Loading zone lighting was noticeably dim during night shift, making it hard to see approaching vehicles."
+SR-1068,2026-07-26,Loading Zone,Logistics,Evening,Near Miss,2,Forklift-pedestrian proximity,Near miss between reversing forklift and warehouse staff crossing an unmarked pedestrian lane.
+SR-1056,2026-07-28,Warehouse B,Logistics,Morning,Observation,1,Improper storage/stacking,"Boxes stacked above the marked height limit on rack 3, creating a potential fall/collapse risk."
+SR-1086,2026-07-28,Packaging Unit,Manufacturing,Morning,Observation,2,PPE non-compliance,Forklift operator noted operating without a high-visibility vest during morning shift.
+SR-1012,2026-07-28,Assembly Line 3,Manufacturing,Night,Near Miss,3,Wet/slippery floor,Employee nearly slipped on a wet patch close to the conveyor. Surface had not been mopped or marked.
+SR-1014,2026-07-28,Assembly Line 3,Manufacturing,Night,Near Miss,3,Equipment leakage,Coolant leak detected under the stamping press during night rounds. Area was cordoned but not fully cleaned.
+SR-1028,2026-07-29,Assembly Line 3,Manufacturing,Evening,Observation,2,Missing hazard signage,Wet floor / hazard signage was missing near the leak-prone section of the line during evening shift.
+SR-1000,2026-07-29,Assembly Line 3,Manufacturing,Night,Near Miss,3,Equipment leakage,Recurring oil leak from the packaging line gearbox. Maintenance ticket raised but leak returned within days.
+SR-1072,2026-07-29,Loading Zone,Logistics,Evening,Observation,1,Pedestrian crossing violation,Pedestrian crossed through an active vehicle lane instead of using the marked crossing near dock 7.
+SR-1024,2026-07-30,Assembly Line 3,Manufacturing,Night,Near Miss,3,Equipment leakage,Hydraulic fluid observed leaking from conveyor motor housing near station 1. Small puddle forming on the floor.
+SR-1042,2026-08-01,Warehouse B,Logistics,Morning,Observation,2,Improper storage/stacking,"Boxes stacked above the marked height limit on rack 1, creating a potential fall/collapse risk."
+SR-1044,2026-08-01,Warehouse B,Logistics,Morning,Observation,2,PPE non-compliance,Two workers observed without safety goggles while handling packaging materials near bay 4.
+SR-1099,2026-08-02,Main Corridor,Facilities,Evening,Near Miss,3,Blocked fire exit,Fire exit near the main corridor was found propped with storage boxes during the evening check.
+SR-1015,2026-08-02,Assembly Line 3,Manufacturing,Morning,Incident,5,Machine malfunction,Press machine safety interlock did not engage properly on first attempt; operator had to reset it manually.
+SR-1066,2026-08-03,Loading Zone,Logistics,Morning,Observation,2,Pedestrian crossing violation,Pedestrian crossed through an active vehicle lane instead of using the marked crossing near dock 2.
+SR-1004,2026-08-08,Assembly Line 3,Manufacturing,Morning,Incident,3,Machine malfunction,Conveyor belt motor made unusual grinding noise and stalled briefly before restarting on its own.
+SR-1040,2026-08-10,Warehouse B,Logistics,Evening,Near Miss,3,Blocked emergency pathway,Emergency pathway near the loading dock was obstructed by returned stock awaiting pickup.
+SR-1074,2026-08-11,Loading Zone,Logistics,Night,Observation,2,Poor lighting,"Loading zone lighting was noticeably dim during night shift, making it hard to see approaching vehicles."
+SR-1005,2026-08-11,Assembly Line 3,Manufacturing,Night,Near Miss,3,Wet/slippery floor,"Floor near bay 2 was wet and slippery, likely from the recurring equipment leak. No wet-floor sign present."
+SR-1058,2026-08-12,Loading Zone,Logistics,Evening,Observation,1,Pedestrian crossing violation,Pedestrian crossed through an active vehicle lane instead of using the marked crossing near dock 4.
+SR-1052,2026-08-12,Warehouse B,Logistics,Night,Near Miss,2,Blocked emergency pathway,Emergency pathway near the loading dock was obstructed by returned stock awaiting pickup.
+SR-1013,2026-08-13,Assembly Line 3,Manufacturing,Night,Observation,1,Missing hazard signage,Wet floor / hazard signage was missing near the leak-prone section of the line during night shift.
+SR-1027,2026-08-13,Assembly Line 3,Manufacturing,Night,Incident,5,Machine malfunction,Conveyor belt motor made unusual grinding noise and stalled briefly before restarting on its own.
+SR-1085,2026-08-13,Packaging Unit,Manufacturing,Morning,Observation,1,PPE non-compliance,Two workers observed without safety goggles while handling packaging materials near bay 7.
+SR-1102,2026-08-14,Main Corridor,Facilities,Evening,Near Miss,3,Blocked fire exit,Fire exit near the main corridor was found propped with storage boxes during the evening check.
+SR-1003,2026-08-14,Assembly Line 3,Manufacturing,Evening,Near Miss,2,Equipment leakage,Coolant leak detected under the stamping press during evening rounds. Area was cordoned but not fully cleaned.
+SR-1055,2026-08-14,Warehouse B,Logistics,Morning,Observation,1,Improper storage/stacking,"Boxes stacked above the marked height limit on rack 9, creating a potential fall/collapse risk."
+SR-1090,2026-08-16,Electrical Substation,Facilities,Night,Observation,2,Exposed wiring,"Exposed wiring noticed near the substation junction box, insulation appeared worn."
+SR-1021,2026-08-17,Assembly Line 3,Manufacturing,Night,Observation,2,Missing hazard signage,"No caution signage posted around the ongoing maintenance work, despite repeated requests from the night crew."
+SR-1017,2026-08-19,Assembly Line 3,Manufacturing,Morning,Incident,3,Machine malfunction,Conveyor belt motor made unusual grinding noise and stalled briefly before restarting on its own.
+SR-1095,2026-08-19,Electrical Substation,Facilities,Night,Near Miss,2,Electrical hazard,Panel door on substation unit 1 was left open with live components partially accessible.
+SR-1023,2026-08-19,Assembly Line 3,Manufacturing,Night,Near Miss,2,Wet/slippery floor,"Floor near bay 6 was wet and slippery, likely from the recurring equipment leak. No wet-floor sign present."
+SR-1002,2026-08-20,Assembly Line 3,Manufacturing,Night,Near Miss,2,Equipment leakage,Hydraulic fluid observed leaking from conveyor motor housing near station 4. Small puddle forming on the floor.
+SR-1093,2026-08-20,Electrical Substation,Facilities,Night,Observation,2,Exposed wiring,"Exposed wiring noticed near the substation junction box, insulation appeared worn."
+SR-1054,2026-08-21,Warehouse B,Logistics,Evening,Near Miss,2,Blocked emergency pathway,Pallets stacked partially blocking the marked emergency exit route near dock 6.
+SR-1006,2026-08-22,Assembly Line 3,Manufacturing,Evening,Observation,2,Missing hazard signage,Wet floor / hazard signage was missing near the leak-prone section of the line during evening shift.
+SR-1019,2026-08-22,Assembly Line 3,Manufacturing,Night,Incident,4,Machine malfunction,Press machine safety interlock did not engage properly on first attempt; operator had to reset it manually.
+SR-1103,2026-08-22,Main Corridor,Facilities,Evening,Near Miss,3,Blocked fire exit,Fire exit near the main corridor was found propped with storage boxes during the evening check.
+SR-1031,2026-08-22,Assembly Line 3,Manufacturing,Night,Near Miss,3,Wet/slippery floor,Employee nearly slipped on a wet patch close to the conveyor. Surface had not been mopped or marked.
+SR-1061,2026-08-23,Loading Zone,Logistics,Evening,Observation,1,Pedestrian crossing violation,Pedestrian crossed through an active vehicle lane instead of using the marked crossing near dock 3.
+SR-1073,2026-08-23,Loading Zone,Logistics,Evening,Near Miss,3,Forklift-pedestrian proximity,Forklift came within close proximity of a pedestrian walkway with no spotter present near dock 7.
+SR-1034,2026-08-24,Warehouse B,Logistics,Morning,Observation,1,PPE non-compliance,Forklift operator noted operating without a high-visibility vest during morning shift.
+SR-1007,2026-08-25,Assembly Line 3,Manufacturing,Night,Incident,5,Machine malfunction,Press machine safety interlock did not engage properly on first attempt; operator had to reset it manually.
+SR-1001,2026-08-25,Assembly Line 3,Manufacturing,Evening,Near Miss,3,Equipment leakage,Coolant leak detected under the stamping press during evening rounds. Area was cordoned but not fully cleaned.
+SR-1022,2026-08-26,Assembly Line 3,Manufacturing,Night,Observation,1,Missing hazard signage,"No caution signage posted around the ongoing maintenance work, despite repeated requests from the night crew."
+SR-1009,2026-08-28,Assembly Line 3,Manufacturing,Night,Near Miss,3,Wet/slippery floor,Employee nearly slipped on a wet patch close to the conveyor. Surface had not been mopped or marked.
+SR-1037,2026-08-28,Warehouse B,Logistics,Evening,Observation,1,PPE non-compliance,Two workers observed without safety goggles while handling packaging materials near bay 9.
+SR-1082,2026-08-29,Packaging Unit,Manufacturing,Evening,Observation,2,PPE non-compliance,Forklift operator noted operating without a high-visibility vest during evening shift.
+SR-1101,2026-08-30,Main Corridor,Facilities,Evening,Near Miss,2,Blocked fire exit,Fire exit near the main corridor was found propped with storage boxes during the evening check.
+SR-1010,2026-08-30,Assembly Line 3,Manufacturing,Night,Observation,2,Missing hazard signage,"No caution signage posted around the ongoing maintenance work, despite repeated requests from the night crew."
+SR-1036,2026-09-01,Warehouse B,Logistics,Morning,Near Miss,3,Blocked emergency pathway,Emergency pathway near the loading dock was obstructed by returned stock awaiting pickup.
+SR-1011,2026-09-02,Assembly Line 3,Manufacturing,Evening,Near Miss,3,Equipment leakage,Hydraulic fluid observed leaking from conveyor motor housing near station 9. Small puddle forming on the floor.
+SR-1084,2026-09-03,Packaging Unit,Manufacturing,Morning,Observation,2,Repetitive strain concern,Packaging staff reported wrist discomfort after extended repetitive sealing tasks without rotation.
+SR-1020,2026-09-03,Assembly Line 3,Manufacturing,Evening,Near Miss,3,Equipment leakage,Hydraulic fluid observed leaking from conveyor motor housing near station 9. Small puddle forming on the floor.
+SR-1067,2026-09-04,Loading Zone,Logistics,Evening,Observation,2,Pedestrian crossing violation,Pedestrian crossed through an active vehicle lane instead of using the marked crossing near dock 7.
+SR-1087,2026-09-04,Packaging Unit,Manufacturing,Morning,Observation,1,Repetitive strain concern,Packaging staff reported wrist discomfort after extended repetitive sealing tasks without rotation.
+SR-1018,2026-09-05,Assembly Line 3,Manufacturing,Night,Near Miss,2,Equipment leakage,Coolant leak detected under the stamping press during night rounds. Area was cordoned but not fully cleaned.
+SR-1098,2026-09-07,Main Corridor,Facilities,Morning,Observation,2,Slip/fall hazard,Loose floor tile near the main corridor created a trip hazard close to the stairwell.
+SR-1059,2026-09-07,Loading Zone,Logistics,Night,Observation,2,Poor lighting,"Loading zone lighting was noticeably dim during night shift, making it hard to see approaching vehicles."
+SR-1050,2026-09-08,Warehouse B,Logistics,Morning,Observation,1,Improper storage/stacking,"Boxes stacked above the marked height limit on rack 2, creating a potential fall/collapse risk."
+SR-1033,2026-09-08,Assembly Line 3,Manufacturing,Morning,Incident,4,Machine malfunction,Press machine safety interlock did not engage properly on first attempt; operator had to reset it manually.
+SR-1069,2026-09-09,Loading Zone,Logistics,Night,Observation,2,Poor lighting,"Loading zone lighting was noticeably dim during night shift, making it hard to see approaching vehicles."
+SR-1016,2026-09-10,Assembly Line 3,Manufacturing,Morning,Near Miss,3,Wet/slippery floor,Employee nearly slipped on a wet patch close to the conveyor. Surface had not been mopped or marked.
+SR-1064,2026-09-11,Loading Zone,Logistics,Evening,Near Miss,3,Forklift-pedestrian proximity,Near miss between reversing forklift and warehouse staff crossing an unmarked pedestrian lane.
+SR-1041,2026-09-11,Warehouse B,Logistics,Morning,Near Miss,2,Blocked emergency pathway,Emergency pathway near the loading dock was obstructed by returned stock awaiting pickup.
+SR-1039,2026-09-13,Warehouse B,Logistics,Morning,Near Miss,2,Blocked emergency pathway,Emergency pathway near the loading dock was obstructed by returned stock awaiting pickup.
+SR-1077,2026-09-13,Loading Zone,Logistics,Morning,Near Miss,2,Forklift-pedestrian proximity,Forklift came within close proximity of a pedestrian walkway with no spotter present near dock 4.
+SR-1008,2026-09-14,Assembly Line 3,Manufacturing,Night,Near Miss,3,Equipment leakage,Hydraulic fluid observed leaking from conveyor motor housing near station 5. Small puddle forming on the floor.
+SR-1025,2026-09-14,Assembly Line 3,Manufacturing,Night,Near Miss,3,Equipment leakage,Recurring oil leak from the packaging line gearbox. Maintenance ticket raised but leak returned within days.

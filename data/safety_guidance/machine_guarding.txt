@@ -1,0 +1,17 @@
+FACTORY SAFETY GUIDANCE — MACHINE GUARDING & INTERLOCKS
+(Demonstration / reference document)
+
+Section 1: Interlock Function
+Safety interlocks on presses, conveyors, and stamping equipment must
+engage on the first attempt. A failure to engage on first attempt,
+even if resolved by a manual reset, must be logged as a near-miss and
+inspected before the next shift begins.
+
+Section 2: Grinding or Abnormal Noise
+Unusual noise from conveyor or motor assemblies preceding a stall is
+a common early indicator of bearing or belt failure. Equipment should
+be tagged out and inspected rather than restarted repeatedly.
+
+Section 3: Guarding
+All moving parts within reach of an operator's normal working position
+must have a fixed or interlocked guard in place at all times.
