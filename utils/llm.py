@@ -31,6 +31,11 @@ else:
 def llm_available() -> bool:
     return _client is not None
 
+def get_client():
+    """Returns the underlying Groq client (or None if unavailable), for
+    modules that need direct access, e.g. audio transcription."""
+    return _client
+
 
 def llm_status_message() -> str:
     if llm_available():

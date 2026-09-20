@@ -11,7 +11,7 @@ def _report_picker(df: pd.DataFrame) -> dict | None:
     st.markdown('<div class="ss-hero-number" style="font-size:2.4rem;">AI FORENSIC WORKSPACE</div>', unsafe_allow_html=True)
     st.write("")
 
-    tab1, tab2 = st.tabs(["Select existing report", "Analyze new report text"])
+    tab1, tab2, tab3 = st.tabs(["Select existing report", "Analyze new report text", "Record voice report"])
     report = None
 
     with tab1:
@@ -46,7 +46,65 @@ def _report_picker(df: pd.DataFrame) -> dict | None:
                     "shift": shift, "report_type": report_type, "severity": severity,
                     "hazard": "Unspecified (new report)", "description": text.strip(),
                 }
+
+    with tab3:
+        voice_report = _voice_report_tab()
+        if voice_report is not None:
+            report = voice_report
+
     return report
+
+
+def _voice_report_tab() -> dict | None:
+    try:
+        from streamlit_mic_recorder import mic_recorder
+    except ImportError:
+        st.info(
+            "Voice input needs one extra package. Run `pip install streamlit-mic-recorder` "
+            "and restart the app to enable this tab."
+        )
+        return None
+
+    from utils.voice import transcribe_audio, voice_available
+
+    if not voice_available():
+        st.info("Voice transcription needs GROQ_API_KEY set in your .env file to enable this tab.")
+        return None
+
+    st.caption("Record a spoken safety observation — it will be transcribed and run through the same agent pipeline as a typed report.")
+    audio = mic_recorder(start_prompt="🎙️ Start recording", stop_prompt="⏹ Stop recording", just_once=True, key="voice_recorder")
+
+    if audio is not None and audio.get("bytes"):
+        with st.spinner("Transcribing..."):
+            transcript, error = transcribe_audio(audio["bytes"])
+        if error:
+            st.warning(error)
+            return None
+        st.session_state["voice_transcript"] = transcript
+
+    transcript = st.session_state.get("voice_transcript")
+    if not transcript:
+        return None
+
+    st.markdown("**Transcript** (edit if needed before submitting):")
+    with st.form("voice_report_form"):
+        text = st.text_area("Report description", value=transcript, height=100, label_visibility="collapsed")
+        c1, c2, c3 = st.columns(3)
+        location = c1.text_input("Location", value="Assembly Line 3")
+        shift = c2.selectbox("Shift", ["Morning", "Evening", "Night"])
+        report_type = c3.selectbox("Report type", ["Observation", "Near Miss", "Incident"])
+        severity = st.slider("Severity (1-5)", 1, 5, 2)
+        submitted = st.form_submit_button("Run Agent Investigation", use_container_width=True)
+        if submitted and text.strip():
+            return {
+                "report_id": "VOICE-REPORT",
+                "date": pd.Timestamp.today().date().isoformat(),
+                "location": location, "department": "Unspecified",
+                "shift": shift, "report_type": report_type, "severity": severity,
+                "hazard": "Unspecified (voice report)", "description": text.strip(),
+            }
+    return None
+    #return report
 
 
 def render(df: pd.DataFrame, store: VectorStore):
